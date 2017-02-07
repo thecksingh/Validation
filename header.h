@@ -56,7 +56,7 @@ void getpassword(char a[])
 
 
     }
-    if(digit==1||capital==1||small==1||character==1||number=1)
+    if(digit==1||capital==1||small==1||character==1||number==1)
     printf("\nWrong password\n");
     else
     printf("your password is successfully created\n");
