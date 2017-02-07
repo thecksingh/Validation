@@ -5,7 +5,7 @@ int findlength(char str[]) {
    return (len);
 }
 
-int getpassword(char a[])
+void getpassword(char a[])
 {
       char b;
       int i,length,capital=0,small=0,number=0,character=0,digit=0;
@@ -62,5 +62,5 @@ int getpassword(char a[])
     printf("your password is successfully created\n");
 
 
-    return;
+    
 }
