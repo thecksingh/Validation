@@ -5,6 +5,6 @@ main()
 {
 char a[50];
 printf("enter the password");
-scanf("%s",a);
+scanf("%s",&a);
 getpassword(a);
 }
